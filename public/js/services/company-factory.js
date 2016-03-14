@@ -84,7 +84,6 @@ angular.module('app')
     };
 
     var applied = function() {
-      console.log('hi')
       var userId = JSON.parse($window.localStorage['job-hunt-token']);
       return $http({
         method: 'POST',
